@@ -70,7 +70,7 @@ class CodeEditor extends Component {
                     value={code}
                     onChange={(e) => this.setState({ code: e.target.value })}
                     onKeyDown={(e) => {
-                        if (e.key === 'Tab') {
+                        if (e.key === 'Tab')  {
                             this.handleTabKey(e);
                         }
                     }}
